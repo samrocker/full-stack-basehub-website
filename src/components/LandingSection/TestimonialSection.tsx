@@ -12,7 +12,7 @@ const TestimonialSection = () => {
   return (
     <section className="w-full bg-black">
       <main className="max-w-[1380px] m-auto">
-        <div className="py-10 w-full flex-between flex-col gap-10">
+        <div className="py-10 w-full flex-between flex-col gap-10 px-5 lg:px-0">
           <div className="flex-[1] w-full flex-center flex-col gap-5">
             <h1 className="text-xl md:text-3xl lg:text-5xl text-white font-normal text-center">
               What people are saying
