@@ -5,13 +5,14 @@ import Image2 from "../../../public/images/AiStructure.png";
 import Image3 from '../../../public/images/safeSDK.png';
 import Image4 from '../../../public/images/AllEssentials.png'
 import Image5 from '../../../public/images/ViewChanges.png'
+import { Button } from "../ui/button";
 
 const WorkBetter = () => {
   return (
     <section className="w-full bg-black">
       <main className="max-w-[1380px] m-auto">
         <div className="min-h-fit py-10 w-full flex flex-col gap-10 px-5 lg:px-0">
-          <div className="flex-[1] w-full flex-center flex-col gap-5">
+          <div className="flex-[1] w-full flex-center flex-col gap-5 py-10">
             <div className="flex-center flex-col">
               <h1 className="text-lg md:text-3xl lg:text-5xl text-white font-normal text-center">
                 Features that make you work better
@@ -97,6 +98,10 @@ const WorkBetter = () => {
                 <Image src={Image5} alt="Secure and Scalable" className="w-full object-cover" />
               </div>
             </div>
+          </div>
+          <div className="py-5 w-full flex-between px-5 bg-[#FF6C00] rounded-xl">
+            <h1 className="text-lg lgLtext-xl text-black font-bold">Try BaseHub Today</h1>
+            <Button className="rounded-full">Get Started</Button>
           </div>
         </div>
       </main>

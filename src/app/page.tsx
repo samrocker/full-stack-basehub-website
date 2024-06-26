@@ -3,6 +3,8 @@ import BuildingBlockSection from "@/components/LandingSection/BuildingBlockSecti
 import HeroSection from "@/components/LandingSection/HeroSection"
 import ViaGraphQLSection from "@/components/LandingSection/ViaGraphQLSection"
 import FeaturesSection from "@/components/LandingSection/FeatuesSection"
+import OurMissonSection from '@/components/LandingSection/OurMissonSection'
+import TestimonialSection from '@/components/LandingSection/TestimonialSection'
 
 const page = () => {
   return (
@@ -12,6 +14,8 @@ const page = () => {
     <BuildingBlockSection />
     <ViaGraphQLSection />
     <FeaturesSection />
+    <OurMissonSection />
+    <TestimonialSection />
     </>
   )
 }
