@@ -94,6 +94,15 @@
     .text-link {
       color: var(--accent-light-full, #0065B8);
     }
+    .text-header {
+      color: #909090;
+    }
+    .bg-button {
+      background-color: #FF6C00;
+    }
+    .border-orange-1 {
+      border-color: #FF6C00;
+    }
   }
 
   @layer base {
