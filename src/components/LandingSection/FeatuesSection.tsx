@@ -101,7 +101,7 @@ const WorkBetter = () => {
           </div>
           <div className="py-5 w-full flex-between px-5 bg-[#FF6C00] rounded-xl">
             <h1 className="text-lg lgLtext-xl text-black font-bold">Try BaseHub Today</h1>
-            <Button className="rounded-full">Get Started</Button>
+            <Button className="rounded-full bg-black text-white">Get Started</Button>
           </div>
         </div>
       </main>

@@ -23,8 +23,8 @@ const OurMissonSection = () => {
               better content, faster.
             </p>
           </div>
-          <span className="flex-center gap-2 border-[1px] border-white/50 py-3 px-5 text-xs md:text-md bg-white/10 text-white font-light rounded-full">
-            <Image src={LinkIcon} alt="" className="object-cover" />
+          <span className="flex-center gap-2 border-[1px] border-white/50 py-3 px-5 cursor-pointer text-xs cursor-pointer md:text-md bg-white/10 text-white font-light rounded-full">
+            <Image src={LinkIcon} alt="" className="object-cover cursor-pointer" />
             Read more about our mission
           </span>
         </div>
