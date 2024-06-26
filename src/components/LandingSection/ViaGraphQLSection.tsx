@@ -6,7 +6,7 @@ import ArrowIcon from '../../../public/icons/arrow.png'
 const BuildingBlockSection = () => {
   return (
     <section className="w-full bg-black">
-      <main className="max-w-[1380px] m-auto">
+      <main className="max-w-[1380px] m-auto  ">
         <div className="min-h-fit pb-10 w-full flex-between flex-col gap-10 px-5">
           <div className="flex-[1] w-full flex-center flex-col gap-5">
             <h1 className="text-lg md:text-3xl lg:text-5xl text-white font-normal">

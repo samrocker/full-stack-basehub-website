@@ -50,23 +50,23 @@ const HeaderSection = () => {
               </SheetTrigger>
               <SheetContent className="bg-black border-white/20">
                 <div className="h-screen w-full flex flex-col gap-5 items-start justify-center">
-                  <Link href="/" className="text-2xl text-white font-bold">
+                  <Link href="/" className="text-xl text-white font-bold">
                     Pricing
                   </Link>
-                  <Link href="/" className="text-2xl text-white font-bold">
+                  <Link href="/" className="text-xl text-white font-bold">
                     Documentation
                   </Link>
-                  <Link href="/" className="text-2xl text-white font-bold">
+                  <Link href="/" className="text-xl text-white font-bold">
                     Blog
                   </Link>
-                  <Link href="/" className="text-2xl text-white font-bold">
+                  <Link href="/" className="text-xl text-white font-bold">
                     Changelog
                   </Link>
                   <div className="flex gap-3">
-                    <Button className="text-md text-white font-medium px-5 bg-black rounded-full">
+                    <Button className="text-xs text-white font-medium px-5 bg-black rounded-full">
                       Log In
                     </Button>
-                    <Button className="text-md text-black font-bold px-5 bg-button rounded-full hover:bg-button hover:text-white">
+                    <Button className="text-xs text-black font-bold px-5 bg-button rounded-full hover:bg-button hover:text-white">
                       Get Started
                     </Button>
                   </div>
